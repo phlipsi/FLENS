@@ -35,7 +35,7 @@
 
 #include <iostream>
 #include <cxxlapack/interface/interface.h>
-#include <cxxlapack/netlib/netlib.h>
+#include <netlib/netlib.h>
 
 namespace cxxlapack {
 template <typename IndexType>

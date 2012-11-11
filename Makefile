@@ -1,20 +1,20 @@
 all :
-	$(MAKE) -C cxxblas/netlib
-	$(MAKE) -C cxxlapack/netlib
-	$(MAKE) -C flens/blas/interface
-	$(MAKE) -C flens/lapack
+	mkdir -p lib
+	$(MAKE) -C netlib
+	$(MAKE) -C src/interface/blas
+	$(MAKE) -C src/interface/lapack
+	$(MAKE) -C test/blas
+	$(MAKE) -C test/lapack
 
 check :
-	$(MAKE) -C flens/blas/interface check
-	$(MAKE) -C flens/lapack check
+	$(MAKE) -C test/blas check
+	$(MAKE) -C test/lapack check
 
 clean :
-	$(MAKE) -C cxxblas/netlib clean
-	$(MAKE) -C cxxlapack/netlib clean
-	$(MAKE) -C flens/lapack clean
+	$(MAKE) -C netlib clean
+	$(MAKE) -C test/blas clean
+	$(MAKE) -C test/lapack clean
+	$(MAKE) -C src/interface/blas clean
+	$(MAKE) -C src/interface/lapack clean
+	rmdir lib
 
-distclean :
-	$(MAKE) -C cxxblas/netlib distclean
-	$(MAKE) -C cxxlapack/netlib distclean
-	$(MAKE) -C flens/blas/interface distclean
-	$(MAKE) -C flens/lapack distclean

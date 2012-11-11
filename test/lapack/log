@@ -1,0 +1,35 @@
+ LAPACK_STUB: dbdsqr
+ LAPACK_STUB: dgbequ
+ LAPACK_STUB: dgebd2
+ LAPACK_STUB: dgeequ
+ LAPACK_STUB: dgelq2
+ LAPACK_STUB: dgels
+ LAPACK_STUB: dgelsd
+ LAPACK_STUB: dgelss
+ LAPACK_STUB: dgelsx
+ LAPACK_STUB: dgelsy
+ LAPACK_STUB: dgeqr2
+ LAPACK_STUB: dlabad
+ LAPACK_STUB: dlacpy
+ LAPACK_STUB: dlamch
+ LAPACK_STUB: dlange
+ LAPACK_STUB: dlantr
+LAPACK_STUB: dlarf
+LAPACK_STUB: dlarnv
+LAPACK_STUB: dlartg
+LAPACK_STUB: dlascl
+ LAPACK_STUB: dlaset
+ LAPACK_STUB: dlatrs
+ LAPACK_STUB: dpbequ
+ LAPACK_STUB: dpoequ
+ LAPACK_STUB: dppequ
+LAPACK_STUB: dsecnd
+LAPACK_STUB: dtrcon
+LAPACK_STUB: dtrrfs
+LAPACK_STUB: dtrti2
+LAPACK_STUB: dtrtri
+LAPACK_STUB: dtrtrs
+ LAPACK_STUB: ieeeck
+ LAPACK_STUB: ilaver
+ LAPACK_STUB: lsame
+ LAPACK_STUB: lsamen
