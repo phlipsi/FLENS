@@ -10,3 +10,4 @@ netlib/blas/
 netlib/cblas/
 netlib/lapack/
 netlib/._lapack
+build/
