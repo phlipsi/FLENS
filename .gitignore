@@ -2,12 +2,7 @@
 *.a
 *.so
 *.out
-*.f
 flens/examples/*
 !flens/examples/*.cc
 !flens/examples/Makefile
-netlib/blas/
-netlib/cblas/
-netlib/lapack/
-netlib/._lapack
 build/
